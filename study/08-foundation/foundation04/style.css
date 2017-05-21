@@ -2,7 +2,9 @@
 
 @-ms-viewport {width: device-width;}
 
-body {
+body,
+h1, h2, h3, h4, h5, h6
+{
   font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
@@ -97,5 +99,56 @@ body {
   font-size: 12px;
   line-height: 1;
 }
+
+/* 枠+見出しの設定(サブメニュー) */
+.myframe-header-submenu {
+  padding: 0;
+  border: solid 1px #aaa;
+  border-left: none;
+  border-right: none;
+  background-color: #fff;
+}
+.myframe-header-submenu > h3 {
+  margin: 0;
+  padding: 10px;
+  border-bottom: solid 1px #aaa;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+/* メニュー(トップバー) */
+.menu {
+  margin-bottom: 20px;
+}
+.menu,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar.expanded .title-area
+{
+  background-color: #8abc60;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #084;
+}
+.top-bar.expanded .title-area {
+  border-bottom: dashed 1px #fff;
+}
+
+/* フッター */
+.footer {
+  padding: 195px 20px 30px 20px;
+  background-image: url(img/footer.png);
+  background-position: center top;
+  text-align: center;
+}
+.footer p {
+  margin: 0 0 3px 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.footer a {
+  color: #666;
+  text-decoration: none;
+}
+
 
 
