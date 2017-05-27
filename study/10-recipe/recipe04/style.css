@@ -355,3 +355,26 @@ ul[data-orbit] li:nth-child(3) .slide {
 .cmenu li a:hover {
   background-color: #eee;
 }
+
+/* 枠+見出しの設定 */
+.cmenu {
+  margin-bottom: 10px;
+  padding: 0 0 1px 0;
+  background-color: #333;
+}
+.cmenu > h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #a52a2a;
+  color: #fff;
+  font-size: 14px;
+}
+.cmenu > p {
+  margin: 10px;
+}
+.cmenu li a {
+  padding-left: 10px;
+}
+.cmenu li a:hover {
+  background-color: #444;
+}
